@@ -1,112 +1,20 @@
-body{
-      background-color:darkcyan;
-}
-
-#nav-right {
-    margin: 0px 100px;
-    text-align: right;
-}
-
-.profile_pic   {
-        border-width:2px;
-        border-color:darkgreen;
-        border-style: solid;
-        border-radius: 50%;
-}
-
-.profile a{
-    text-decoration: none;
-    color:darkgoldenrod;
-
-}
-.profile_pic:hover{
-            color: darkgreen;
-}
-.profile a:hover{
-    color:crimson;
-    text-decoration: none;
-}
-
-#nav-right ul{
-    list-style: none;
-
-}
-
-body .content{
-    margin:0px 200px;
+#port .card
+{
+    background:darkslategray;
     padding: 20px;
-    }
-#name h3{
-    font-size: 100px;
-    color:darkgoldenrod;
-    font-family: sans-serif;
-}
+    transition: padding 1s ease;}
 
-#qualification{
-    font-size: 50px;
-    color:darkgoldenrod;
-    font-family: sans-serif;
-}
-#logos{
-    background-color: gray;
-}
-#logos ul{
-    list-style: none;
+#port .card:hover{
+              padding: 50px;
+          }
 
+#about .card{margin: 20px}
+     #about .card-title{
+         background:#5bc0de;
+         margin:10px;
+         transition: padding 1s ease;
 }
-#logos li{
-    display: inline-block;
-}
-#logos a{
-    margin: 20px;
-    padding: 0px 10px;
-}
-#drop_down{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 50px;
-
-}
-#drop_down a{
-text-decoration: none;
-    color:darkorange;
-
-}
-#drop_down a:hover{
-    color:crimson;
-    text-decoration: underline;
-
-}
-#title{
-    text-align: center;
-    font-size: 50px;
-    color: firebrick;
-}
-.bio_pic{
-    float:left;
-    margin-right: 10px;
-    border: solid black 2px;
-    padding: 2px;
-
-}
-.bio p{
-    font-size: 40px;
-    color:darkgray;
-}
-#main_bio{
-    margin: 50px;
-    text-align: left;
-
-}
-#booking{
-    text-align: center;
-}
-#booking h2{
-    font-size: 50px;
-    color:darkgreen;
-}
-#booking p{
-    color:darkgreen;
-    margin: 0px 200px;
-    font-size: 40px;
-}
+         #about .card-title:hover
+            {
+              padding: 15px;
+              }
